@@ -1,10 +1,10 @@
-# Codility Challenge: <Challenge Name>
+# Codility Challenge: Gamer's 2021
 
-## <Task Name>
+## FillTheGaps
 
-- Difficulty: <Difficulty>
-- <Description>
-- <challenge-url>
+- Difficulty: Hard
+- Given a string consisting of characters 'a', 'b' and/or '?', replace each '?' with 'a' or 'b' so that the longest fragment of the resulting string consisting of equal letters is as short as possible.
+- <https://app.codility.com/programmers/challenges/gamers_2021/>
 - <task-url>
 
 ## Versions
@@ -14,11 +14,11 @@
   - `OK`: Correctness 100%, Performance <100%.
   - `Fail`: Correctness <100%, Performance <100%.
 - File naming convention
-  - Code `A`: `Challenge2021A.java`
+  - Code `A`: `Gamers2021A.java`
   - etc
 
 ### Gold Award
 
-| File | Complexity | Result | Report |
-| ---- | ---------- | ------ | ------ |
-| `A`  | `O( )`     | ` `    | [ ]()  |
+| File | Complexity              | Result | Report                                                                            |
+| ---- | ----------------------- | ------ | --------------------------------------------------------------------------------- |
+| `A`  | `O(N * log(N)) or O(N)` | `Good` | [N7PTWR](https://app.codility.com/cert/view/certN7PTWR-SA8JKZ48PXEHSSSS/details/) |
