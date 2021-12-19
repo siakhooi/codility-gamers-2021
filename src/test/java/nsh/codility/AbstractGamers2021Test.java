@@ -186,4 +186,11 @@ public abstract class AbstractGamers2021Test {
 	void test_odd_questions_diff_chars(String S, int R) {
 		assertEquals(R, testObject.solution(S));
 	}
+	@Test
+	void test_top_nn_top() {
+		String S = "aaaa?bbb?aaa?bbb?aaa?bbb?aaaa";
+		int R = 5;
+
+		assertEquals(R, testObject.solution(S));
+	}
 }
